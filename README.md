@@ -1,6 +1,9 @@
-# miningpools.cloud-balance-checker
+# Miningpools.cloud Checker
 Check your balance on miningpools.cloud
 
-You need to have Java 8 installed on the system.
-1. Extract in a folder
-2. Open Hush.jar
+You need to have Java JRE 8 installed on the system!
+
+Features:
+- Check current, pending and paid balance
+- Check hashrate
+- All pools on miningspool.cloud
