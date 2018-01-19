@@ -14,7 +14,7 @@ Copyright (C) 2018  Tomaž Čuk
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package org.venoox.miningspoolcloud;
+package org.venoox.miningpoolscloud;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -95,7 +95,7 @@ public class MainWindow extends JFrame {
                     }
                     if (index==2) {
                         try {
-                            JSONObject json = JSONReader.readJsonFromUrl("http://chipspool.cloud/api/worker_stats?"+address);
+                            JSONObject json = JSONReader.readJsonFromUrl("http://snowgempool.cloud/api/worker_stats?"+address);
                             double balance = json.getDouble("balance");
                             double paid = json.getDouble("paid");
                             Iterator<?> keys = json.getJSONObject("workers").keys();
